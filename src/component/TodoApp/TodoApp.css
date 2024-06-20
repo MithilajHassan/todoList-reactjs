@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    background-color: chocolate;
+    font-family: sans-serif;
+}
+h1{
+    margin: 0;
+    margin-bottom: 15px;
+}
+.todo-container{
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+.input-section{
+    background-color: rgb(255, 226, 151);
+    padding: 18px;
+    border-radius: 10px;
+}
+.input-section input{
+    border-radius: 5px;
+    border: 1px solid silver;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+}
+.sub-input-section{
+    display: flex;
+}
+.sub-input-section button{
+   background-color: lawngreen;
+   border: solid 1px silver;
+   border-radius: 5px;
+   width: 40px;
+   margin-left: 5px;
+}
+.sub-input-section button:hover{
+    background-color: green;
+    color: white;
+}
+ul{
+    text-align: left;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul li span {
+    flex-grow: 1;
+    margin-right: 10px;
+    word-break: break-word;
+}
+.actions-section{
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+}
+#edit-btn:hover{
+    color: blue;
+}
+#delete-btn:hover{
+    color: red;
+}
